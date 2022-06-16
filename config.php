@@ -17,7 +17,7 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = getenv('http://moodle-exaport.herokuapp.com');
+$CFG->wwwroot   = getenv('https://moodle-exaport.herokuapp.com');
 $CFG->dataroot  = getenv('/tmp');
 $CFG->admin     = 'admin';
 
